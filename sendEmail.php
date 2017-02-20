@@ -8,6 +8,7 @@ require 'class.smtp.php';
 $mail = new PHPMailer();
 
 // 是否启用了smtp 的 debug 进行调试，开发环境建议开启，生产环境注释掉即可，默认关闭了 debug 调试模式
+// 如果不注释掉页面会出现一大堆的代码文件
 // $mail-SMTPDebug = 1;
 //使用smtp鉴权方式发送邮件，当然你可以选择pop方式 sendmail方式等 本文不做详解
 //目前的邮箱，几乎都需要授权方式了。
